@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Playwrite DE Grund", cursive;
+
+}
+header{
+    background-color:#FFD700;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    padding: 2rem; 
+}
+
+.primeira{
+    display: flex; 
+    align-items: center; 
+    gap: 25rem;
+}
+
+.imagem-principal {
+    width: 25rem;
+    height: auto; 
+    max-width: 100%; 
+}
+
+p {
+    max-width: 40rem; 
+}
+
+.segunda {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #4169E1; 
+    height: 40rem; 
+    gap: 1rem; 
+    margin-top: 2rem;
+}
+
+.imagem-secundaria {
+    width: 25rem;
+    height: 35rem; 
+}
+
+.terceira {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 2rem; 
+   
+}
+
+.imagem-terceira {
+    width: 30rem;
+    height: 40rem; 
+    margin: 0.5rem; 
+
+}
